@@ -15,8 +15,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <link href="css\style.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css\style.css" rel="stylesheet">
 
     <title>Food Resturant</title>
 
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-6 align-items-center">
                     <div class="header-top-right text-matterhorn">
-                        <p class="shipping mb-0">Free delivery on order over 
+                        <p class="shipping mb-0">Free delivery on order over
                             <span>$200</span>
                         </p>
                     </div>
@@ -48,22 +48,34 @@
     </div>
     <div class="header-middle py-5">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-12">
-                    <div class="header-middle-wrap">
-                        <div>
+                    <div class="header-middle-wrap row">
+                        <div class="col-md-2">
                             <a href="index.html" class="header-logo">
-                                <img src="https://htmldemo.net/harmic/harmic/assets/images/logo/dark.png" alt="Header Logo">
+                                <img src="https://htmldemo.net/harmic/harmic/assets/images/logo/dark.png"
+                                    alt="Header Logo">
                             </a>
                         </div>
-                        <div>
-                            <form action="">
-                                <select>
+                        <div class="col-md-7">
+                            <form action="" class="header-search">
+                                <select class="form-control category-select">
                                     <option value="all">All Category</option>
                                 </select>
-                                <input type="text" placeholder="Search">
-                                <button>Search</button>
+                                <input type="text" placeholder="Search" class="form-control ms-1">
+                                <div>
+                                    <button class="ms-1 btn btn-outline-whisper btn-primary-hover">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </div>
                             </form>
+                        </div>
+                        <div class="col-md-3 header-right p-2">
+                            <div>
+                                <i class="ms-2 fa fa-user-circle-o" aria-hidden="true"></i>
+                                <i class="ms-2 fa fa-heart-o" aria-hidden="true"></i>
+                                <i class="ms-2 fa fa-shopping-cart" aria-hidden="true"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -93,7 +105,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <ul class="nav product-tab-nav pb-10">
+                    <ul class="nav product-tab-nav mb-5">
                         <li class="nav-item">All Items</li>
                         <li class="nav-item">Fresh Fruits</li>
                         <li class="nav-item">Fresh Fruits</li>
@@ -107,13 +119,14 @@
                                 <div class="col-xl-3 col-lg-4 col-sm-6">
                                     <div class="product-item">
                                         <div class="product-image">
-                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg" alt="Product Image">
+                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg"
+                                                alt="Product Image">
                                         </div>
                                         <div class="product-action">
                                             <ul>
                                                 <li><a href="product-details.html">
-                                                    <i class="fa fa-search"></i>
-                                                </a></li>
+                                                        <i class="fa fa-search"></i>
+                                                    </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -121,13 +134,14 @@
                                 <div class="col-xl-3 col-lg-4 col-sm-6">
                                     <div class="product-item">
                                         <div class="product-image">
-                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg" alt="Product Image">
+                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg"
+                                                alt="Product Image">
                                         </div>
                                         <div class="product-action">
                                             <ul>
                                                 <li><a href="product-details.html">
-                                                    <i class="fa fa-search"></i>
-                                                </a></li>
+                                                        <i class="fa fa-search"></i>
+                                                    </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -135,13 +149,14 @@
                                 <div class="col-xl-3 col-lg-4 col-sm-6">
                                     <div class="product-item">
                                         <div class="product-image">
-                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg" alt="Product Image">
+                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg"
+                                                alt="Product Image">
                                         </div>
                                         <div class="product-action">
                                             <ul>
                                                 <li><a href="product-details.html">
-                                                    <i class="fa fa-search"></i>
-                                                </a></li>
+                                                        <i class="fa fa-search"></i>
+                                                    </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -149,13 +164,14 @@
                                 <div class="col-xl-3 col-lg-4 col-sm-6">
                                     <div class="product-item">
                                         <div class="product-image">
-                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg" alt="Product Image">
+                                            <img src="https://htmldemo.net/harmic/harmic/assets/images/product/medium-size/1-1-270x300.jpg"
+                                                alt="Product Image">
                                         </div>
                                         <div class="product-action">
                                             <ul>
                                                 <li><a href="product-details.html">
-                                                    <i class="fa fa-search"></i>
-                                                </a></li>
+                                                        <i class="fa fa-search"></i>
+                                                    </a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -168,7 +184,38 @@
         </div>
     </div>
     <div class="footer">
-        <div>
+        <div class="section-space-top-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="index.html" class="header-logo">
+                            <img src="https://htmldemo.net/harmic/harmic/assets/images/logo/dark.png" alt="Header Logo">
+                        </a>
+                        <p class="mt-2">Lorem ipsum dolor sit amet, consectet adipi elit, sed do eius tempor incididun ut labore gthydolore.</p>
+                        <p><i class="fa fa-map-marker"></i> 184 Main Rd E, St Albans VIC 3021,</p>
+                        <p><i class="fa fa-envelope"></i> info@example.com</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>INFORMATION</h5>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)">FAQ</a>
+                                <a href="javascript:void(0)">SHIPPING</a>
+                                <a href="javascript:void(0)">RETURNS</a>
+                                <a href="javascript:void(0)">ORDER STATUS</a>
+                                <a href="javascript:void(0)">GIFT CARD BALANCE</a>
+                                <a href="javascript:void(0)">ACCESSIBILITY</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>MY ACCOUNT</h5>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>NEWSLETTERS</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
