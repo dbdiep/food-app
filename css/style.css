@@ -135,3 +135,12 @@ li a {
     width: 200px;
     height: 200px;
 }
+
+.category {
+    border: 1px solid #d4d993;
+}
+
+.product-content {
+    padding: 25px 30px;
+    text-align: center;
+}
